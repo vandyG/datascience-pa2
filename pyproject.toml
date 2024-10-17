@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "imblearn>=0.0",
     "missingno>=0.5.2",
+    "scikit-learn>=1.5.2",
 ]
 
 [tool.uv]
